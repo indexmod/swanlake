@@ -12,19 +12,11 @@ background-color: black;
 	z-index:-1
 }
 
-.img-sphere {
+.img-balenciaga {
 	cursor:pointer;
 	position: absolute;
-	left: 50px;
-	top: 50px;
-	z-index:0
-}
-
-.img-sphere {
-	cursor:pointer;
-	position: absolute;
-	left: 50px;
-	top: 50px;
+	left: 500px;
+	top: 500px;
 	z-index:0
 }
 
