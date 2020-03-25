@@ -1,3 +1,10 @@
+body
+
+{
+background-color: red;
+}
+
+
 
 .img-sphere {
 	cursor:pointer;
@@ -15,7 +22,7 @@
 	z-index:1;
 }
 
-.img-triangle { 
+.img-triangle {
 	cursor:pointer;
 	position: absolute;
 	left: 70px;
