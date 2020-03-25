@@ -5,6 +5,13 @@ background-color: black;
 }
 
 
+.img-sphere {
+	cursor:pointer;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	z-index:0
+}
 
 .img-sphere {
 	cursor:pointer;
