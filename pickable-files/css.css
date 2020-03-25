@@ -23,7 +23,7 @@ background-color: black;
 .img-starost {
 	cursor:pointer;
 	position: absolute;
-	left: 250px;
+	left: 550px;
 	top: 500px;
 	z-index:1;
 }
