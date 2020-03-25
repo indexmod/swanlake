@@ -16,7 +16,7 @@ background-color: black;
 	cursor:pointer;
 	position: absolute;
 	left: 400px;
-	top: 500px;
+	top: 300px;
 	z-index:0
 }
 
@@ -24,7 +24,7 @@ background-color: black;
 	cursor:pointer;
 	position: absolute;
 	left: 900px;
-	top: 500px;
+	top: 300px;
 	z-index:1;
 }
 
