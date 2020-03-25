@@ -4,6 +4,13 @@ body
 background-color: black;
 }
 
+.img-lake {
+	cursor:pointer;
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	z-index:-1
+}
 
 .img-sphere {
 	cursor:pointer;
