@@ -15,7 +15,7 @@ background-color: black;
 .img-balenciaga {
 	cursor:pointer;
 	position: absolute;
-	left: 500px;
+	left: 400px;
 	top: 500px;
 	z-index:0
 }
@@ -23,7 +23,7 @@ background-color: black;
 .img-starost {
 	cursor:pointer;
 	position: absolute;
-	left: 700px;
+	left: 900px;
 	top: 500px;
 	z-index:1;
 }
