@@ -20,11 +20,11 @@ background-color: black;
 	z-index:0
 }
 
-.img-line {
+.img-starost {
 	cursor:pointer;
 	position: absolute;
-	left: 60px;
-	top: 60px;
+	left: 250px;
+	top: 500px;
 	z-index:1;
 }
 
