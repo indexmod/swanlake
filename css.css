@@ -4,7 +4,7 @@ html, body {
 	margin: 0;
 	background-color: black;
 }
-#myVideo {
-	position: fixed;
-	z-index: -1;
+#myVideo  {
+  width: 100%;
+  height: auto;
 }
