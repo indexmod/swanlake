@@ -17,7 +17,7 @@ SWAN LAKE by Andr oDei 2020
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SWAN LAKE by Andr oDei</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩰</text></svg>"/>
+  <link rel="faicon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩰</text></svg>"/>
 
   <style>
     html, body {
@@ -58,23 +58,34 @@ SWAN LAKE by Andr oDei 2020
       right: 15px;
       font-size: 2rem;
       z-index: 10;
+      width: 40px;  /* Добавляем одинаковый размер для кофейной и кнопки play */
+      height: 40px; /* Добавляем одинаковый размер для кофейной и кнопки play */
     }
 
     .coffee a {
-  text-decoration: none;
-}
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      height: 100%;
+      font-size: 2rem;
+      line-height: 40px;
+      text-align: center;
+    }
 
     .play-pause-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 40px; /* Увеличил размер для удобства */
-    height: 40px;
-    background-color: transparent;
-    border: none; /* Убираем рамку */
-    cursor: pointer;
-    z-index: 10;
-  }
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 40px; /* Устанавливаем одинаковый размер */
+      height: 40px; /* Устанавливаем одинаковый размер */
+      background-color: transparent;
+      border: none; /* Убираем рамку */
+      cursor: pointer;
+      z-index: 10;
+      font-size: 1.5rem;
+      text-align: center;
+      line-height: 40px;
+    }
 
   </style>
 </head>
